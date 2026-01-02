@@ -1,0 +1,8 @@
+intial_data=set()
+print(f"So the intial logged data is {intial_data}")
+print(f"Old Id is :{id(intial_data)}")
+intial_data.add("chai")
+intial_data.add("coffee")
+intial_data.add("Lime tea")
+print(f"So the intial logged data is {intial_data}")
+print(f"Old Id is :{id(intial_data)}")
